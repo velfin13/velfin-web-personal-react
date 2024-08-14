@@ -1,11 +1,28 @@
 import React, { useState } from "react";
 
-import { navbarLinks } from "../../data/data";
+import { navbarLinks as navbarLinksEs } from "../../data/data_es";
+import { navbarLinks as navbarLinksEn } from "../../data/data_en";
 import "./Header.scss";
 
 const Header = ({ lng, setLanguage }) => {
   const [collapse, setCollapse] = useState(false);
+  
+  var navbarLinksTraslated = [];
 
+  switch (lng) {
+    case "en":
+      navbarLinksTraslated = navbarLinksEn;
+      break;
+    case "es":
+      navbarLinksTraslated = navbarLinksEs;
+      break;
+  
+    default:
+      navbarLinksTraslated = navbarLinksEn;
+      break;
+  }
+
+  
   /* boton collapzar */
   const handleCollapse = () => {
     setCollapse(!collapse);
@@ -25,7 +42,7 @@ const Header = ({ lng, setLanguage }) => {
 
         <div className={collapse ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
-            {navbarLinks.map((navBarState) => (
+            {navbarLinksTraslated.map((navBarState) => (
               <li className="nav__item" key={navBarState.id}>
                 <a
                   href={navBarState.url ? navBarState.url : ""}

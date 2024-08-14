@@ -1,6 +1,6 @@
 import React from "react";
 import './Curriculum.scss'
-import { EducationsData, TrabajosData } from "../../data/data";
+import { EducationsData, TrabajosData } from "../../data/data_es";
 import { Education } from "./Education";
 import { Trabajos } from "./Trabajos";
 

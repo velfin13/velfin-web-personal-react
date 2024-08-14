@@ -2,7 +2,7 @@
 import React from "react";
 import ContactmeCore from "../../core/Contactme";
 
-import { contactosData } from "../../../data/data";
+import { contactosData } from "../../../data/data_es";
 import "./Contactme.scss";
 
 const Contactme = () => {

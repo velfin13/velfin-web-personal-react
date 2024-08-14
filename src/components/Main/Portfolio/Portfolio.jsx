@@ -3,7 +3,7 @@
 import React from "react";
 import "./Portfolio.scss";
 import Proyectos from "./Proyectos";
-import { portafoliosData } from "../../../data/data";
+import { portafoliosData } from "../../../data/data_es";
 
 const Portfolio = () => {
 

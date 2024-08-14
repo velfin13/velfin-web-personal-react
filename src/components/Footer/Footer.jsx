@@ -1,12 +1,32 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { navbarLinks, socialLinks } from "../../data/data";
+import { navbarLinks as navbarLinksEs, socialLinks } from "../../data/data_es";
+import { navbarLinks as navbarLinksEn } from "../../data/data_en";
 import Socials from "../core/Socials/SocialsFooter";
 import "./Footer.scss";
 
 
-const Footer = () => {
+const Footer = ({ lng }) => {
+
+  var navbarLinksTraslated = [];
+
+  switch (lng) {
+    case "en":
+      navbarLinksTraslated = navbarLinksEn;
+      break;
+    case "es":
+      navbarLinksTraslated = navbarLinksEs;
+      break;
+
+    default:
+      navbarLinksTraslated = navbarLinksEn;
+      break;
+  }
+
+  console.log(navbarLinksTraslated);
+  console.log(lng);
+  
 
   return (
     <>
@@ -19,7 +39,7 @@ const Footer = () => {
             </div>
 
             <ul className="footer__links">
-              {navbarLinks.map((footerLinksState) => (
+              {navbarLinksTraslated.map((footerLinksState) => (
                 <li key={footerLinksState.id}>
                   <a
                     href={footerLinksState.url ? footerLinksState.url : ""}

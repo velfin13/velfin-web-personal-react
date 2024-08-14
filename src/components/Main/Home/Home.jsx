@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import HomeIMG from '../../../assets/img/perfil.png';
-import { socialLinks } from "../../../data/data";
+import { socialLinks } from "../../../data/data_es";
 import SocialsHome from "../../core/Socials/SocialsHome";
 import "./Home.scss";
 

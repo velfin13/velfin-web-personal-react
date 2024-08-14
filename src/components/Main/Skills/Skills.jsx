@@ -1,5 +1,5 @@
 import React from "react";
-import { skillDataBackendEnd, skillDataDatabaseEnd, skillDataFrondEnd } from "../../../data/data";
+import { skillDataBackendEnd, skillDataDatabaseEnd, skillDataFrondEnd } from "../../../data/data_es";
 import SkillsCore from "../../core/Skills";
 import "./Skills.scss";
 

@@ -9,7 +9,9 @@ export const Trabajos = ({ educations = [] }) => {
                         <h4>{ed.title}</h4>
                         <span className="casa">{ed.casa}</span>
                         <span className="fecha">{ed.fecha}</span>
-                        <p>{ed.descripcion}</p>
+                        {
+                            ed.descripcion ? <p>{ed.descripcion}</p> : null
+                        }
                         <div className="conectord">
                             <div className="circulod"></div>
                         </div>

@@ -161,10 +161,10 @@ export const contactosData = [
 export const EducationsData = [
     {
         id: 1,
-        title: 'Arte y Multimedia',
-        casa: 'Universidad de Oxford',
-        fecha: '2005 - 2008',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam'
+        title: 'Information Systems Engineering',
+        casa: 'Universidad técnica de Manabí',
+        fecha: '2018 - 2023',
+        descripcion: null
     }
 ]
 

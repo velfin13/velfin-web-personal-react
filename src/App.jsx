@@ -24,7 +24,7 @@ function App() {
       <main className="main">
         <Home lng={language} />
         <About lng={language} />
-        <Curriculum />
+        <Curriculum lng={language}/>
         <Skills lng={language} />
         <Portfolio lng={language} />
         <Contactme lng={language} />

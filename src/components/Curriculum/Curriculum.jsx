@@ -6,6 +6,8 @@ import { Trabajos } from "./Trabajos";
 
 const Curriculum = ({ lng }) => {
 
+    console.log(lng);
+    
     return (
         <section id="curriculum" className="curriculum">
             <div className="contenido-seccion">

@@ -1,0 +1,161 @@
+@import "../../../assets/scss/index.scss";
+
+.skills__container {
+  row-gap: 0;
+}
+
+.skills__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: $mb-2-5;
+  cursor: pointer;
+}
+
+.skills__icon,
+.skills__arrow {
+  font-size: 2rem;
+  color: $first-color;
+}
+
+.skills__arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.skills__list {
+  row-gap: 1.5rem;
+  padding-left: 2.5rem;
+  margin-right: 40px;
+}
+
+.skills__icon {
+  margin-right: $mb-1;
+}
+
+.skills__titles {
+  font-size: $h3-font-size;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $mb-0-5;
+}
+
+.skils__subtitle {
+  font-size: $small-font-size;
+  color: $text-color-light;
+}
+
+.skills__names {
+  font-size: $normal-font-size;
+  font-weight: $font-medium;
+}
+
+.skills__bar,
+.skills__percentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.skills__bar {
+  background-color: $first-color-lighter;
+}
+
+.skills__percentage {
+  display: block;
+  background-color: $first-color;
+}
+
+.skills__5 {
+  width: 5%;
+}
+
+.skills__10 {
+  width: 10%;
+}
+
+.skills__15 {
+  width: 15%;
+}
+
+.skills__20 {
+  width: 20%;
+}
+
+.skills__25 {
+  width: 25%;
+}
+
+.skills__30 {
+  width: 30%;
+}
+
+.skills__35 {
+  width: 35%;
+}
+
+.skills__40 {
+  width: 40%;
+}
+
+.skills__45 {
+  width: 45%;
+}
+
+.skills__50 {
+  width: 50%;
+}
+
+.skills__55 {
+  width: 55%;
+}
+
+.skills__60 {
+  width: 60%;
+}
+
+.skills__65 {
+  width: 65%;
+}
+
+.skills__70 {
+  width: 70%;
+}
+
+.skills__75 {
+  width: 75%;
+}
+
+.skills__80 {
+  width: 80%;
+}
+
+.skills__85 {
+  width: 85%;
+}
+
+.skills__90 {
+  width: 90%;
+}
+
+.skills__95 {
+  width: 95%;
+}
+
+.skills__100 {
+  width: 100%;
+}
+
+/* to do: terminar el resto de barras */
+
+.skills__close .skills__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: $mb-2-5;
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg);
+}

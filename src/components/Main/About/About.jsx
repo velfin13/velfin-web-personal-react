@@ -21,7 +21,7 @@ const About = ({lng}) => {
             Web developer, with extensive kmowledge and years of experience, working in web tecnologies and UI & Ux design, delivering quality work
           </p>
 
-          <div className="about__info">
+          {/* <div className="about__info">
             <div>
               <span className="about__info-title">08+</span>
               <span className="about__info-name">years <br /> experience</span>
@@ -37,7 +37,7 @@ const About = ({lng}) => {
               <span className="about__info-name">Companies <br /> worked</span>
             </div>
 
-          </div>
+          </div> */}
 
           {/* <div className="about__buttons">
             <a

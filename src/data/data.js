@@ -140,25 +140,40 @@ export const contactosData = [
     {
         id: 1,
         title: "Email",
-        subtitle: "yourname@example.com",
+        subtitle: "contact@velfinvelasquez.me",
         icon: "uil uil-envelope",
     },
     {
         id: 2,
-        title: "Phone",
-        subtitle: "+1 234 567 890",
-        icon: "uil uil-phone",
+        title: "Whatsapp",
+        subtitle: "+593960091634",
+        icon: "uil uil-whatsapp",
     },
     {
         id: 3,
-        title: "LinkedIn",
-        subtitle: "linkedin.com/in/yourname",
-        icon: "uil uil-linkedin",
-    },
-    {
-        id: 4,
-        title: "GitHub",
-        subtitle: "github.com/yourusername",
-        icon: "uil uil-github",
-    },
+        title: "Address",
+        subtitle: "Portoviejo - Manabí - Ecuador",
+        icon: "uil uil-location-pin-alt"
+    }
 ];
+
+
+export const EducationsData = [
+    {
+        id: 1,
+        title: 'Arte y Multimedia',
+        casa: 'Universidad de Oxford',
+        fecha: '2005 - 2008',
+        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam'
+    }
+]
+
+export const TrabajosData = [
+    {
+        id: 1,
+        title: 'Arte y Multimedia',
+        casa: 'Universidad de Oxford',
+        fecha: '2005 - 2008',
+        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam'
+    }
+]

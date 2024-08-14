@@ -3,7 +3,7 @@ import { skillDataBackendEnd, skillDataDatabaseEnd, skillDataFrondEnd } from "..
 import SkillsCore from "../../core/Skills";
 import "./Skills.scss";
 
-const Skills = ({ lng }) => {
+const Skills = () => {
 
   return (
     <section className="skills section" id="skills">

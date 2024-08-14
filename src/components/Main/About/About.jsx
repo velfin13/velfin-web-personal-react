@@ -2,7 +2,7 @@ import React from "react";
 import AboutImg from "../../../assets/img/about.jpg";
 import "./About.scss";
 
-const About = ({lng}) => {
+const About = () => {
 
   return (
     <section className="about section" id="about">

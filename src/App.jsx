@@ -7,14 +7,19 @@ import Contactme from "./components/Main/Contactme";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import Curriculum from "./components/Curriculum/Curriculum";
+import { useTranslation } from "react-i18next";
 
 function App() {
+
+  const [_, i18n] = useTranslation("global");
+
   const [language, setLanguage] = useState(
     localStorage.getItem("idioma") ?? "en"
   );
 
   useEffect(() => {
     localStorage.setItem("idioma", language ?? "en");
+    i18n.changeLanguage(language)
   }, [language]);
 
 
@@ -22,14 +27,14 @@ function App() {
     <>
       <Header lng={language} setLanguage={setLanguage} />
       <main className="main">
-        <Home lng={language} />
-        <About lng={language} />
-        <Curriculum lng={language}/>
-        <Skills lng={language} />
-        <Portfolio lng={language} />
-        <Contactme lng={language} />
+        <Home />
+        <About />
+        <Curriculum />
+        <Skills />
+        <Portfolio />
+        <Contactme />
       </main>
-      <Footer lng={language} />
+      <Footer />
     </>
   );
 }

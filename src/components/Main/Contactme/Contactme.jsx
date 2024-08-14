@@ -5,7 +5,7 @@ import ContactmeCore from "../../core/Contactme";
 import { contactosData } from "../../../data/data";
 import "./Contactme.scss";
 
-const Contactme = ({ lng }) => {
+const Contactme = () => {
 
   return (
     <section className="contact section" id="contact">

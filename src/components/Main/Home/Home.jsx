@@ -6,7 +6,7 @@ import { socialLinks } from "../../../data/data";
 import SocialsHome from "../../core/Socials/SocialsHome";
 import "./Home.scss";
 
-const Home = ({ lng }) => {
+const Home = () => {
 
   return (
     <section className="home section" id="home">

@@ -5,7 +5,7 @@ import "./Portfolio.scss";
 import Proyectos from "./Proyectos";
 import { portafoliosData } from "../../../data/data";
 
-const Portfolio = ({ lng }) => {
+const Portfolio = () => {
 
   return (
     <section className="portfolio section" id="portfolio">

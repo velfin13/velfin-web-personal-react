@@ -6,7 +6,7 @@ import Socials from "../core/Socials/SocialsFooter";
 import "./Footer.scss";
 
 
-const Footer = ({ lng }) => {
+const Footer = () => {
 
   return (
     <>

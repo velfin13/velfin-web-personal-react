@@ -4,9 +4,7 @@ import { EducationsData, TrabajosData } from "../../data/data";
 import { Education } from "./Education";
 import { Trabajos } from "./Trabajos";
 
-const Curriculum = ({ lng }) => {
-
-    console.log(lng);
+const Curriculum = () => {
     
     return (
         <section id="curriculum" className="curriculum">
